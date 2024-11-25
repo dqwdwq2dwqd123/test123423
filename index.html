@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testing 123</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="inputSection">
+        <h1>Welcome to something!</h1>
+        <p>(Hint: Try typing "Mazzybomb")</p>
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput" placeholder="Type your name here" />
+        <label for="dobInput">Enter your date of birth:</label>
+        <input type="date" id="dobInput" />
+        <button id="submitButton">Submit</button>
+      </div>
+      <div id="outputSection" style="display: none">
+        <p id="message"></p>
+        <button id="nextButton" style="display: none">
+          Click for a surprise
+        </button>
+      </div>
+      <div id="heartSection" style="display: none">
+        <pre id="asciiHeart"></pre>
+        <h2>I love you, Maria!</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #container {
+    text-align: center;
+    width: 80%;
+  }
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #heartSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #asciiHeart {
+    font-size: 16px;
+    color: red;
+    white-space: pre-line;
+    animation: pulsate 1s infinite;
+  }
+  
+
+  @keyframes pulsate {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
